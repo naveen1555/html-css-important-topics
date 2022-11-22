@@ -1,0 +1,47 @@
+.title-input-conatiner {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+  .title-input-conatiner {
+    background-color: lightcoral;
+  }
+}
+
+.pseudo-element::first-letter {
+  color: red;
+  font-size: xx-large;
+}
+
+.logo {
+  background-color: bisque;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.my-messages {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.my-messages-logo-para {
+  display: flex;
+  flex-direction: row;
+}
+
+.para {
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.time {
+  padding-top: 40px;
+}
+
+.opposite-messages {
+  display: flex;
+  justify-content: flex-start;
+}
